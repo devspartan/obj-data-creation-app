@@ -294,7 +294,7 @@ class ParentContainer extends Component {
                         <p><strong>Size: </strong> ({this.state.widthRect}X{this.state.heightRect})</p>
                         <form >
                             <label for="file-input"></label>
-                            <input id="file-input" type="file" onChange={this.handleFile} />
+                            <input id="file-input" type="file" onChange={this.handleFile} />   
                         </form>
                         <p id='demo'></p>
                     </div>

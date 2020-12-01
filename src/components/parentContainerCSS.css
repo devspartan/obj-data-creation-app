@@ -1,0 +1,42 @@
+/* import img from '../images/mountains1.jpg' */
+
+.img{
+    margin: 40px;
+    max-width: 600px;
+}
+
+.aaaa{
+    background-image: url('../images/mountains2.jpg');
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    height: 800;
+    border:1px solid black;
+}
+
+.mainContainer{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.buttonDiv{
+    display: flex;
+    position: relative;
+    margin: 0 40px;
+}
+.buttonDiv button, input{
+    padding: 4px 10px;
+    margin: 5px 10px;
+
+}
+
+.leftContainer{
+    float: left;
+    min-width: 800px
+}
+
+.rightContainer{
+    float: right;
+}
+
